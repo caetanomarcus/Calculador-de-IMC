@@ -11,7 +11,7 @@ function IMC(peso, altura) {
     peso = pesoInput.value;
     altura = alturaInput.value;
     imc = peso / (altura * altura);
-    return imc.toFixed(1);
+    return imc;
 };
 
 function classification(imc) {
