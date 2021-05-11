@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Calcule seu IMC</h1>
+        <form action="">
+            <label for="nome">Nome :
+                <input type="text" name="nome" id="nome">
+            </label>
+            
+            <label for="idade">Idade:
+                <input type="number" name="idade" id="idade">
+            </label>
+            
+            <label for="peso">Peso (em Kg):
+                <input type="number" name="" id="peso" placeholder="Ex: 73">
+            </label>
+            
+            <label for="altura">Altura (em metros):
+                <input type="number" name="altura" id="altura" placeholder="Ex: 1,65">
+            </label>
+           
+            <button id="btn">Calcular</button>
+    </form>
+    </header>
+    <main>
+        <table id="table">
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>IMC</th>
+                <th>Classificação</th>
+            </tr>
+            <tr>
+                <td>Marcus</td>
+                <td>29</td>
+                <td>24,82</td>
+                <td>Normal</td>
+            </tr>
+            <tr>
+                <td>Izigdril Campos</td>
+                <td>34</td>
+                <td>16,54</td>
+                <td>Magreza</td>
+            </tr>
+        </table>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

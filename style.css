@@ -1,0 +1,60 @@
+header {
+    font-size: 1.6vw;
+
+}
+h1 {
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+label {
+    width: 30vw;
+}
+label input{
+    width: 30vw;
+    margin: 0.5rem;
+    font-size: 1vw;
+    
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+table, th, td {
+    margin-top: 5vw;
+    border: solid black 1px;
+    font-size: 1.6vw;
+}
+ table td {
+     padding: 1.6vw;
+ }
+ button {
+     font-size: 1.2vw;
+ }
+
+ @media (max-width: 1023px) {
+     header{
+         font-size: 4vw;
+     }
+     label {
+        width: 60vw;
+    }
+    label input{
+        width: 50vw;
+        margin: 0.5rem;
+        
+    }
+    table, th, td {
+        margin-top: 5vw;
+        border: solid black 1px;
+        font-size: 4vw;
+    }
+    button {
+        font-size: 4vw;
+    }
+ }
